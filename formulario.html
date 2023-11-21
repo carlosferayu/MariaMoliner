@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<!--Añadir el header -->
+
+    <form action="index.html" >
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                Nombre y apellidos:
+                <input type="text">
+            </p>
+            <p>
+                Edad:
+                <input type="text">
+            </p>
+            <p>
+                Correo electrónico:
+                <input type="email">
+            </p>
+            <p>
+                Dirección:
+                <input type="text">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="Masculino" id="id_masc">Masculino
+                <input type="radio" name="Femenido" id="id_fem">Femenino
+
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <p>
+                Productos en los que esta mas interesado:
+                <select name="compraFav" id="id_compraFav">
+                    <option value="0">Plátanos</option>
+                    <option value="1">Agua</option>
+                    <option value="2">Patatas</option>
+                    <option value="3">Berengenas</option>
+                </select>
+
+            </p>
+            <p>
+                Cada cuanto desea recibir nuestra newsletter:
+                <select name="frecuencia" id="id_frecuencia">
+                    <option value="0">Diariamente</option>
+                    <option value="1">Semanalmente</option>
+                    <option value="2">Mensualmente</option>
+                    <option value="3">Trimestralmente</option>
+                </select>
+            </p>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+    <!--Añadir el footer -->
+</body>
+</html>
