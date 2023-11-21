@@ -30,3 +30,12 @@ img{
     width: 100px;
     height: 100px;
 }
+aside{
+width: 25%;
+background-color: antiquewhite;}
+aside li {
+    display: block;
+    color: black;
+    padding: 20px;
+}
+main{display: flex;}
