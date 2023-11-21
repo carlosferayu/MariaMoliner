@@ -3,48 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito de la compra</title>
+    <meta name="description" content="Un carrito de la compra.">
+    <meta name="keywords" content="Carrito, Compra, Comprar, MariaMoliner">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://carlosferayu.github.io/mariamoliner">
+    <meta name="author" content="Clase 2 DAW Maria Moliner">
     <link rel="stylesheet" href="stylesCarritoCompra.css">
+    <!-- Link de iconos de bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-   
+
+    <header>
+        <!-- Título del sitio -->
+        <h1>
+            <a href="index.html">
+                <!-- Icono home, cambiar por otro icono en caso de conveniencia -->
+                <span class="glyphicon glyphicon-home"></span>
+                Carrito de compra
+            </a>
+        </h1>
+            <!-- Navegación del sitio, retocar con display: flex -->
+        <nav>
+            <ul>
+                <li><a href=".">Link 1</a></li>
+                <li><a href=".">Link 2</a></li>
+                <li><a href=".">Filler 3</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
     <h1>Carro de compra</h1>
-    <main><aside><ul>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Carrito de la compra</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Formulario</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">index</a></li>
-    </ul></aside>
+    <main>
+      <aside>
+        <ul>
+          <li><a href="http://" target="_blank" rel="noopener noreferrer">Carrito de la compra</a></li>
+          <li><a href="http://" target="_blank" rel="noopener noreferrer">Formulario</a></li>
+          <li><a href="http://" target="_blank" rel="noopener noreferrer">index</a></li>
+       </ul>
+      </aside>
     <table>
         <tr>
             <th>Descripción</th>
             <th>Cantidad</th>
             <th>Precio</th>
             <th>Imagen</th>
+            <th>Total</th>
         </tr>
         <tr>
             <td>Agua</td>
             <td>4</td>
             <td>2.50</td>
             <td><img src="img/agua.jpg" alt="agua"></td>
+            <td>10</td>
         </tr>
         <tr>
             <td>Plátanos</td>
             <td>6</td>
             <td>1.20</td>
             <td><img src="img/platanos.jpg" alt="agua"></td>
+            <td>7.20</td>
         </tr>
         <tr>
             <td>Patata</td>
             <td>4</td>
             <td>0.50</td>
             <td><img src="img/patatas.jpg" alt="agua"></td>
+            <td>2.00</td>
         </tr>
         <tr>
             <td>Berenjena</td>
             <td>12</td>
             <td>1.60</td>
             <td><img src="img/berenjena.jpg" alt="agua"></td>
+            <td>19.20</td>
         </tr>
-    </table></main>
+        <tr>
+            <td colspan="4">Total</td>
+            <td>38.40</td>
+        </tr>
+
+    </table>
+	<a href="compraFinalizada.html"><input type="button" value="Finalizar compra"/></a>
+    </main><footer>
+        <p>2023 Supermercado Maria Moliner.Dando guerra desde el 2018.</p>
+        <p>Contacto: info@supermercadoMoliner.com</p>
+		<a href="formulario.html"><input type="button" value="Ir a formulario"/></a>
+</footer>
 </body>
 </html>
