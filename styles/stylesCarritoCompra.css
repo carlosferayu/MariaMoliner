@@ -22,10 +22,15 @@ table{
     padding: 8px;
 }
 footer{
-    background-color: white;
+    border: 2px;
+    border-color: white;
+    margin-bottom: 0%;
+    text-align: left;
+    background-color: black;
     font-weight: bolder;
-    color: red;
+    color: white;
 }
+
 img{
     width: 100px;
     height: 100px;
